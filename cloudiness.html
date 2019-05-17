@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>HTML/CSS Web Visualization Dashboard (Cloudiness)</title>
+  <title>Visualization Dashboard</title>
   <link rel="stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href = "styles.css">
   <style>
@@ -14,8 +14,9 @@
 <body>
         <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
+                  <!-- Brand and toggle get grouped for better mobile display -->
                   <div class="navbar-header">
-                    <a class="navbar-brand" href="index.html">Latitude</a>
+                    <a class="navbar-brand" href="index.html">Home</a>
                   </div>
                     <ul class="nav navbar-nav navbar-right">
                       <li class="dropdown">
@@ -38,7 +39,6 @@
     <br>
 
 
-
     <!-- Container 1 -->
     <div class="container">
         <!--<div class="row">-->
@@ -46,38 +46,43 @@
         <div class="col-lg-8 col-sm-12">
           <h1>Cloudiness</h1>
           <hr>
-            <img src="Fig3.png" alt="cloudiness" height="400" width="600">
+            <img src="Fig3.png" alt="cloudiness" height="400" width="600"align="center">
           <p>Latitude does not appear to affect cloudiness.
           </p>
         </div>
         <div class="col-md-4 col-sm-12">
             <h2>Visualizations</h2>
             <hr>
-            <div class= "col-md-6 col-sm-3">
-                <img id ="pic1" src="Fig1.png" alt="maxtemp" height="150" width="150"> 
-            </div> 
-            <div class= "col-md-6 col-sm-3">
-                <img id = "pic2" src="Fig2.png" alt="humidity" height="150" width="150">
-            </div> 
-            <div class= "col-md-6 col-sm-3">
-                <img class = "boxx"  id = "pic3" src="Fig3.png" alt="cloudiness" height="150" width="150">
-            </div> 
-            <div class= "col-md-6 col-sm-3">
-                <img id = "pic4" src="Fig4.png" alt="windspeed" height="150" width="150">
-            </div> 
-        </div>
+                <div class= "col-md-6 col-sm-3">
+                    <h5>Temperature</h5>
+                    <a href="maxtemp.html"><img id = "pic1" src="Fig1.png" alt="cloudiness" height="150" width="150"></a>
+                </div> 
+                <div class= "col-md-6 col-sm-3">
+                  <h5>Humidity</h5>
+                    <a href="humidity.html"><img id ="pic2" src="Fig2.png" alt="humidity" height="150" width="150"></a>
+                </div> 
+                <div class= "col-md-6 col-sm-3">
+                  <h5>Cloudiness</h5>
+                  <img class ="boxx" id = "pic3" src="Fig3.png" alt="cloudiness" height="150" width="150"> 
+                </div> 
+                <div class= "col-md-6 col-sm-3">
+                  <h5>Windspeed</h5>
+                  <a href="windspeed.html"><img id = "pic4" src="Fig4.png" alt="windspeed" height="150" width="150"></a> 
+                </div> 
+    </div>
 </div>
 </div>
 </body>
 <section id="signup" class="signup-section">
     <div class="row">
       <div class="col-md-10 col-lg-8 mx-auto text-lg-left">
-        <a class="text-white mb-5">Subscribe to receive updates!</a>
-        <a href="https://github.com/afr5057"> GitHub</a>
+        <p>Subscribe to receive updates!
+        <a href="https://github.com/afr5057"> GitHub</a></p>
       </div>
     </div>
 </section>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</html>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </html>
         
